@@ -18,32 +18,44 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Tutorial01\compile.bat">
+    <None Include="compile.bat">
       <Filter>Source Files</Filter>
     </None>
-    <None Include="..\Tutorial01\simple_shader.vert">
+    <None Include="simple_shader.frag">
       <Filter>shaders</Filter>
     </None>
-    <None Include="..\Tutorial01\simple_shader.frag">
+    <None Include="simple_shader.frag.spv">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="simple_shader.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="simple_shader.vert.spv">
       <Filter>shaders</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Tutorial01\first_app.cpp">
+    <ClCompile Include="first_app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Tutorial01\lve_window.cpp">
+    <ClCompile Include="lve_window.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\Tutorial01\main.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="lve_pipeline.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Tutorial01\first_app.hpp">
+    <ClInclude Include="first_app.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\Tutorial01\lve_window.hpp">
+    <ClInclude Include="lve_window.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lve_pipeline.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

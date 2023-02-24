@@ -33,6 +33,8 @@ namespace lve
 		void createCommandBuffers();
 		void drawFrame();
 
+		void sierpinski(std::vector<LveModel::Vertex>& vertices, int depth, glm::vec2 left, glm::vec2 right, glm::vec2 top);
+
 		LveWindow lveWindow{ WIDTH, HEIGHT, "Hail Vulkan!" };
 		LveDevice lveDevice{ lveWindow };
 		LveSwapChain lveSwapChain{ lveDevice, lveWindow.getExtent() };

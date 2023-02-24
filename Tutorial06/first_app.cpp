@@ -137,7 +137,8 @@ namespace lve
 		int depth,
 		glm::vec2 left,
 		glm::vec2 right,
-		glm::vec2 top) {
+		glm::vec2 top)
+	{
 		if (depth <= 0) {
 			vertices.push_back({ top });
 			vertices.push_back({ right });
